@@ -38,7 +38,7 @@ def _model_train(df,tag,test=False):
         n_samples = int(np.round(0.3 * X.shape[0]))
         subset_indices = np.random.choice(np.arange(X.shape[0]),n_samples,
                                           replace=False).astype(int)
-        mask = np.in1d(np.arange(y.size),subset_indices)
+        mask = np.isin(np.arange(y.size),subset_indices)
         y=y[mask]
         X=X[mask]
         dates=dates[mask]
@@ -48,21 +48,21 @@ def _model_train(df,tag,test=False):
                                                         shuffle=True, random_state=42)
     ## train a random forest model
     param_grid_rf = {
-    'rf__criterion': ['mse','mae'],
+    'rf__criterion': ['squared_error', 'absolute_error'],
     'rf__n_estimators': [10,15,20,25]
     }
 
     pipe_rf = Pipeline(steps=[('scaler', StandardScaler()),
                               ('rf', RandomForestRegressor())])
     
-    grid = GridSearchCV(pipe_rf, param_grid=param_grid_rf, cv=5, iid=False, n_jobs=-1)
+    grid = GridSearchCV(pipe_rf, param_grid=param_grid_rf, cv=5, n_jobs=-1)
     grid.fit(X_train, y_train)
     y_pred = grid.predict(X_test)
     eval_rmse =  round(np.sqrt(mean_squared_error(y_test,y_pred)))
     
     ## retrain using all data
     grid.fit(X, y)
-    model_name = re.sub("\.","_",str(MODEL_VERSION))
+    model_name = re.sub(r"\.","_",str(MODEL_VERSION))
     if test:
         saved_model = os.path.join(MODEL_DIR,
                                    "test-{}-{}.joblib".format(tag,model_name))
@@ -117,7 +117,7 @@ def model_load(prefix='sl',data_dir=None,training=True):
     """
 
     if not data_dir:
-        data_dir = os.path.join("..","data","cs-train")
+        data_dir = os.path.join("cs-train")
     
     models = [f for f in os.listdir(os.path.join(".","models")) if re.search("sl",f)]
 
@@ -155,7 +155,7 @@ def model_predict(country,year,month,day,all_models=None,test=False):
         raise Exception("ERROR (model_predict) - model for country '{}' could not be found".format(country))
 
     for d in [year,month,day]:
-        if re.search("\D",d):
+        if re.search(r"\D",d):
             raise Exception("ERROR (model_predict) - invalid year, month or day")
     
     ## load data
@@ -203,8 +203,8 @@ if __name__ == "__main__":
 
     ## train the model
     print("TRAINING MODELS")
-    data_dir = os.path.join("..","data","cs-train")
-    model_train(data_dir,test=True)
+    data_dir = os.path.join("cs-train")
+    model_train(data_dir,test=False)
 
     ## load the model
     print("LOADING MODELS")

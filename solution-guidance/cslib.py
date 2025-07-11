@@ -139,7 +139,7 @@ def fetch_ts(data_dir, clean=False):
     top_ten_countries =  np.array(list(table.index))[:10]
 
     file_list = [os.path.join(data_dir,f) for f in os.listdir(data_dir) if re.search("\.json",f)]
-    countries = [os.path.join(data_dir,"ts-"+re.sub("\s+","_",c.lower()) + ".csv") for c in top_ten_countries]
+    countries = [os.path.join(data_dir,"ts-"+re.sub(r"\s+","_",c.lower()) + ".csv") for c in top_ten_countries]
 
     ## load the data
     dfs = {}
@@ -222,7 +222,7 @@ def engineer_features(df,training=True):
 if __name__ == "__main__":
 
     run_start = time.time() 
-    data_dir = os.path.join("..","data","cs-train")
+    data_dir = os.path.join("cs-train")
     print("...fetching data")
 
     ts_all = fetch_ts(data_dir,clean=False)

@@ -1,0 +1,184 @@
+[
+    {
+        "country": "all",
+        "data_range": [
+            "2017-12-01",
+            "2019-05-28"
+        ],
+        "eval": {
+            "rmse": 32279
+        },
+        "runtime": "000:00:04",
+        "model_version": 0.1,
+        "model_version_note": "supervised learing model for time-series",
+        "timestamp": "2025-07-11 21:35:27.515652"
+    },
+    {
+        "country": "united_kingdom",
+        "data_range": [
+            "2017-11-30",
+            "2019-05-29"
+        ],
+        "eval": {
+            "rmse": 31567
+        },
+        "runtime": "000:00:01",
+        "model_version": 0.1,
+        "model_version_note": "supervised learing model for time-series",
+        "timestamp": "2025-07-11 21:35:28.602522"
+    },
+    {
+        "country": "all",
+        "data_range": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "eval": {
+            "rmse": 16060
+        },
+        "runtime": "000:00:04",
+        "model_version": 0.1,
+        "model_version_note": "supervised learing model for time-series",
+        "timestamp": "2025-07-11 21:37:45.920001"
+    },
+    {
+        "country": "eire",
+        "data_range": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "eval": {
+            "rmse": 1719
+        },
+        "runtime": "000:00:01",
+        "model_version": 0.1,
+        "model_version_note": "supervised learing model for time-series",
+        "timestamp": "2025-07-11 21:37:47.786474"
+    },
+    {
+        "country": "france",
+        "data_range": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "eval": {
+            "rmse": 634
+        },
+        "runtime": "000:00:01",
+        "model_version": 0.1,
+        "model_version_note": "supervised learing model for time-series",
+        "timestamp": "2025-07-11 21:37:49.403118"
+    },
+    {
+        "country": "germany",
+        "data_range": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "eval": {
+            "rmse": 514
+        },
+        "runtime": "000:00:02",
+        "model_version": 0.1,
+        "model_version_note": "supervised learing model for time-series",
+        "timestamp": "2025-07-11 21:37:51.458313"
+    },
+    {
+        "country": "hong_kong",
+        "data_range": [
+            "2018-04-19",
+            "2019-05-01"
+        ],
+        "eval": {
+            "rmse": 927
+        },
+        "runtime": "000:00:00",
+        "model_version": 0.1,
+        "model_version_note": "supervised learing model for time-series",
+        "timestamp": "2025-07-11 21:37:52.207914"
+    },
+    {
+        "country": "netherlands",
+        "data_range": [
+            "2017-11-30",
+            "2019-05-31"
+        ],
+        "eval": {
+            "rmse": 120
+        },
+        "runtime": "000:00:01",
+        "model_version": 0.1,
+        "model_version_note": "supervised learing model for time-series",
+        "timestamp": "2025-07-11 21:37:53.691044"
+    },
+    {
+        "country": "norway",
+        "data_range": [
+            "2017-12-05",
+            "2019-05-11"
+        ],
+        "eval": {
+            "rmse": 73
+        },
+        "runtime": "000:00:00",
+        "model_version": 0.1,
+        "model_version_note": "supervised learing model for time-series",
+        "timestamp": "2025-07-11 21:37:54.641197"
+    },
+    {
+        "country": "portugal",
+        "data_range": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "eval": {
+            "rmse": 177
+        },
+        "runtime": "000:00:01",
+        "model_version": 0.1,
+        "model_version_note": "supervised learing model for time-series",
+        "timestamp": "2025-07-11 21:37:56.042123"
+    },
+    {
+        "country": "singapore",
+        "data_range": [
+            "2018-04-25",
+            "2019-05-12"
+        ],
+        "eval": {
+            "rmse": 2343
+        },
+        "runtime": "000:00:00",
+        "model_version": 0.1,
+        "model_version_note": "supervised learing model for time-series",
+        "timestamp": "2025-07-11 21:37:56.772064"
+    },
+    {
+        "country": "spain",
+        "data_range": [
+            "2017-12-01",
+            "2019-05-31"
+        ],
+        "eval": {
+            "rmse": 302
+        },
+        "runtime": "000:00:01",
+        "model_version": 0.1,
+        "model_version_note": "supervised learing model for time-series",
+        "timestamp": "2025-07-11 21:37:58.450255"
+    },
+    {
+        "country": "united_kingdom",
+        "data_range": [
+            "2017-11-29",
+            "2019-05-31"
+        ],
+        "eval": {
+            "rmse": 20713
+        },
+        "runtime": "000:00:01",
+        "model_version": 0.1,
+        "model_version_note": "supervised learing model for time-series",
+        "timestamp": "2025-07-11 21:38:00.435981"
+    }
+]

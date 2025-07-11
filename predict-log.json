@@ -1,0 +1,497 @@
+[
+    {
+        "country": "all",
+        "y_pred": [
+            183976.29133333333
+        ],
+        "y_proba": null,
+        "query_date": "2018-01-05",
+        "runtime": "000:00:06",
+        "model_version": 0.1,
+        "timestamp": "2025-07-11 21:38:12.807849"
+    },
+    {
+        "country": "spain",
+        "y_pred": [
+            3567.6500000000005
+        ],
+        "y_proba": null,
+        "query_date": "2018-01-05",
+        "runtime": "000:00:11",
+        "model_version": 0.1,
+        "timestamp": "2025-07-11 21:40:26.762370"
+    },
+    {
+        "country": "spain",
+        "y_pred": [
+            3567.6500000000005
+        ],
+        "y_proba": null,
+        "query_date": "2018-01-05",
+        "runtime": "000:00:11",
+        "model_version": 0.1,
+        "timestamp": "2025-07-11 21:42:19.608636"
+    },
+    {
+        "country": "spain",
+        "y_pred": [
+            3565.5250000000005
+        ],
+        "y_proba": null,
+        "query_date": "2018-01-01",
+        "runtime": "000:00:06",
+        "model_version": 0.1,
+        "timestamp": "2025-07-11 21:44:26.739581"
+    },
+    {
+        "country": "spain",
+        "y_pred": [
+            3567.4000000000005
+        ],
+        "y_proba": null,
+        "query_date": "2018-01-02",
+        "runtime": "000:00:06",
+        "model_version": 0.1,
+        "timestamp": "2025-07-11 21:44:32.900569"
+    },
+    {
+        "country": "spain",
+        "y_pred": [
+            3567.4000000000005
+        ],
+        "y_proba": null,
+        "query_date": "2018-01-03",
+        "runtime": "000:00:06",
+        "model_version": 0.1,
+        "timestamp": "2025-07-11 21:44:38.971883"
+    },
+    {
+        "country": "spain",
+        "y_pred": [
+            3567.6500000000005
+        ],
+        "y_proba": null,
+        "query_date": "2018-01-04",
+        "runtime": "000:00:06",
+        "model_version": 0.1,
+        "timestamp": "2025-07-11 21:44:45.240314"
+    },
+    {
+        "country": "spain",
+        "y_pred": [
+            3567.6500000000005
+        ],
+        "y_proba": null,
+        "query_date": "2018-01-05",
+        "runtime": "000:00:06",
+        "model_version": 0.1,
+        "timestamp": "2025-07-11 21:44:51.677863"
+    },
+    {
+        "country": "spain",
+        "y_pred": [
+            3567.6500000000005
+        ],
+        "y_proba": null,
+        "query_date": "2018-01-06",
+        "runtime": "000:00:07",
+        "model_version": 0.1,
+        "timestamp": "2025-07-11 21:44:58.925046"
+    },
+    {
+        "country": "spain",
+        "y_pred": [
+            3567.6500000000005
+        ],
+        "y_proba": null,
+        "query_date": "2018-01-07",
+        "runtime": "000:00:07",
+        "model_version": 0.1,
+        "timestamp": "2025-07-11 21:45:06.303840"
+    },
+    {
+        "country": "spain",
+        "y_pred": [
+            3318.5774999999994
+        ],
+        "y_proba": null,
+        "query_date": "2018-01-08",
+        "runtime": "000:00:06",
+        "model_version": 0.1,
+        "timestamp": "2025-07-11 21:45:12.709168"
+    },
+    {
+        "country": "spain",
+        "y_pred": [
+            1974.8275
+        ],
+        "y_proba": null,
+        "query_date": "2018-01-09",
+        "runtime": "000:00:06",
+        "model_version": 0.1,
+        "timestamp": "2025-07-11 21:45:19.519837"
+    },
+    {
+        "country": "spain",
+        "y_pred": [
+            1974.8275
+        ],
+        "y_proba": null,
+        "query_date": "2018-01-10",
+        "runtime": "000:00:06",
+        "model_version": 0.1,
+        "timestamp": "2025-07-11 21:45:26.115742"
+    },
+    {
+        "country": "spain",
+        "y_pred": [
+            635.1299999999998
+        ],
+        "y_proba": null,
+        "query_date": "2018-01-11",
+        "runtime": "000:00:06",
+        "model_version": 0.1,
+        "timestamp": "2025-07-11 21:45:32.675387"
+    },
+    {
+        "country": "spain",
+        "y_pred": [
+            635.1299999999998
+        ],
+        "y_proba": null,
+        "query_date": "2018-01-12",
+        "runtime": "000:00:06",
+        "model_version": 0.1,
+        "timestamp": "2025-07-11 21:45:39.081407"
+    },
+    {
+        "country": "spain",
+        "y_pred": [
+            3565.5250000000005
+        ],
+        "y_proba": null,
+        "query_date": "2018-01-01",
+        "runtime": "000:00:06",
+        "model_version": 0.1,
+        "timestamp": "2025-07-11 21:45:53.190002"
+    },
+    {
+        "country": "spain",
+        "y_pred": [
+            3567.4000000000005
+        ],
+        "y_proba": null,
+        "query_date": "2018-01-02",
+        "runtime": "000:00:06",
+        "model_version": 0.1,
+        "timestamp": "2025-07-11 21:45:59.636976"
+    },
+    {
+        "country": "spain",
+        "y_pred": [
+            3567.4000000000005
+        ],
+        "y_proba": null,
+        "query_date": "2018-01-03",
+        "runtime": "000:00:06",
+        "model_version": 0.1,
+        "timestamp": "2025-07-11 21:46:06.303968"
+    },
+    {
+        "country": "spain",
+        "y_pred": [
+            3567.6500000000005
+        ],
+        "y_proba": null,
+        "query_date": "2018-01-04",
+        "runtime": "000:00:07",
+        "model_version": 0.1,
+        "timestamp": "2025-07-11 21:46:14.109494"
+    },
+    {
+        "country": "spain",
+        "y_pred": [
+            3567.6500000000005
+        ],
+        "y_proba": null,
+        "query_date": "2018-01-05",
+        "runtime": "000:00:07",
+        "model_version": 0.1,
+        "timestamp": "2025-07-11 21:46:21.869636"
+    },
+    {
+        "country": "spain",
+        "y_pred": [
+            3567.6500000000005
+        ],
+        "y_proba": null,
+        "query_date": "2018-01-06",
+        "runtime": "000:00:06",
+        "model_version": 0.1,
+        "timestamp": "2025-07-11 21:46:28.207017"
+    },
+    {
+        "country": "spain",
+        "y_pred": [
+            3567.6500000000005
+        ],
+        "y_proba": null,
+        "query_date": "2018-01-07",
+        "runtime": "000:00:06",
+        "model_version": 0.1,
+        "timestamp": "2025-07-11 21:46:34.538129"
+    },
+    {
+        "country": "spain",
+        "y_pred": [
+            3318.5774999999994
+        ],
+        "y_proba": null,
+        "query_date": "2018-01-08",
+        "runtime": "000:00:06",
+        "model_version": 0.1,
+        "timestamp": "2025-07-11 21:46:40.593372"
+    },
+    {
+        "country": "spain",
+        "y_pred": [
+            1974.8275
+        ],
+        "y_proba": null,
+        "query_date": "2018-01-09",
+        "runtime": "000:00:06",
+        "model_version": 0.1,
+        "timestamp": "2025-07-11 21:46:46.657250"
+    },
+    {
+        "country": "spain",
+        "y_pred": [
+            1974.8275
+        ],
+        "y_proba": null,
+        "query_date": "2018-01-10",
+        "runtime": "000:00:06",
+        "model_version": 0.1,
+        "timestamp": "2025-07-11 21:46:53.206693"
+    },
+    {
+        "country": "spain",
+        "y_pred": [
+            635.1299999999998
+        ],
+        "y_proba": null,
+        "query_date": "2018-01-11",
+        "runtime": "000:00:07",
+        "model_version": 0.1,
+        "timestamp": "2025-07-11 21:47:00.311896"
+    },
+    {
+        "country": "spain",
+        "y_pred": [
+            635.1299999999998
+        ],
+        "y_proba": null,
+        "query_date": "2018-01-12",
+        "runtime": "000:00:07",
+        "model_version": 0.1,
+        "timestamp": "2025-07-11 21:47:07.769818"
+    },
+    {
+        "country": "spain",
+        "y_pred": [
+            635.1299999999998
+        ],
+        "y_proba": null,
+        "query_date": "2018-01-13",
+        "runtime": "000:00:05",
+        "model_version": 0.1,
+        "timestamp": "2025-07-11 21:47:13.749874"
+    },
+    {
+        "country": "spain",
+        "y_pred": [
+            803.3814999999997
+        ],
+        "y_proba": null,
+        "query_date": "2018-01-14",
+        "runtime": "000:00:06",
+        "model_version": 0.1,
+        "timestamp": "2025-07-11 21:47:20.242108"
+    },
+    {
+        "country": "spain",
+        "y_pred": [
+            803.3814999999997
+        ],
+        "y_proba": null,
+        "query_date": "2018-01-15",
+        "runtime": "000:00:07",
+        "model_version": 0.1,
+        "timestamp": "2025-07-11 21:47:27.701045"
+    },
+    {
+        "country": "spain",
+        "y_pred": [
+            803.3814999999997
+        ],
+        "y_proba": null,
+        "query_date": "2018-01-16",
+        "runtime": "000:00:08",
+        "model_version": 0.1,
+        "timestamp": "2025-07-11 21:47:36.157189"
+    },
+    {
+        "country": "spain",
+        "y_pred": [
+            803.3814999999997
+        ],
+        "y_proba": null,
+        "query_date": "2018-01-17",
+        "runtime": "000:00:06",
+        "model_version": 0.1,
+        "timestamp": "2025-07-11 21:47:42.708508"
+    },
+    {
+        "country": "spain",
+        "y_pred": [
+            635.1299999999998
+        ],
+        "y_proba": null,
+        "query_date": "2018-01-18",
+        "runtime": "000:00:06",
+        "model_version": 0.1,
+        "timestamp": "2025-07-11 21:47:49.430496"
+    },
+    {
+        "country": "spain",
+        "y_pred": [
+            635.1299999999998
+        ],
+        "y_proba": null,
+        "query_date": "2018-01-19",
+        "runtime": "000:00:05",
+        "model_version": 0.1,
+        "timestamp": "2025-07-11 21:47:55.407286"
+    },
+    {
+        "country": "spain",
+        "y_pred": [
+            497.96999999999997
+        ],
+        "y_proba": null,
+        "query_date": "2018-01-20",
+        "runtime": "000:00:05",
+        "model_version": 0.1,
+        "timestamp": "2025-07-11 21:48:01.393958"
+    },
+    {
+        "country": "spain",
+        "y_pred": [
+            497.96999999999997
+        ],
+        "y_proba": null,
+        "query_date": "2018-01-21",
+        "runtime": "000:00:05",
+        "model_version": 0.1,
+        "timestamp": "2025-07-11 21:48:07.243274"
+    },
+    {
+        "country": "spain",
+        "y_pred": [
+            497.96999999999997
+        ],
+        "y_proba": null,
+        "query_date": "2018-01-22",
+        "runtime": "000:00:06",
+        "model_version": 0.1,
+        "timestamp": "2025-07-11 21:48:13.499542"
+    },
+    {
+        "country": "spain",
+        "y_pred": [
+            485.27
+        ],
+        "y_proba": null,
+        "query_date": "2018-01-23",
+        "runtime": "000:00:06",
+        "model_version": 0.1,
+        "timestamp": "2025-07-11 21:48:19.619777"
+    },
+    {
+        "country": "spain",
+        "y_pred": [
+            312.6555
+        ],
+        "y_proba": null,
+        "query_date": "2018-01-24",
+        "runtime": "000:00:06",
+        "model_version": 0.1,
+        "timestamp": "2025-07-11 21:48:25.808834"
+    },
+    {
+        "country": "spain",
+        "y_pred": [
+            151.53574999999995
+        ],
+        "y_proba": null,
+        "query_date": "2018-01-25",
+        "runtime": "000:00:06",
+        "model_version": 0.1,
+        "timestamp": "2025-07-11 21:48:31.922638"
+    },
+    {
+        "country": "spain",
+        "y_pred": [
+            151.53574999999995
+        ],
+        "y_proba": null,
+        "query_date": "2018-01-26",
+        "runtime": "000:00:06",
+        "model_version": 0.1,
+        "timestamp": "2025-07-11 21:48:37.970689"
+    },
+    {
+        "country": "spain",
+        "y_pred": [
+            189.31725000000003
+        ],
+        "y_proba": null,
+        "query_date": "2018-01-27",
+        "runtime": "000:00:05",
+        "model_version": 0.1,
+        "timestamp": "2025-07-11 21:48:43.945271"
+    },
+    {
+        "country": "spain",
+        "y_pred": [
+            189.31725000000003
+        ],
+        "y_proba": null,
+        "query_date": "2018-01-28",
+        "runtime": "000:00:06",
+        "model_version": 0.1,
+        "timestamp": "2025-07-11 21:48:50.192751"
+    },
+    {
+        "country": "spain",
+        "y_pred": [
+            3565.5250000000005
+        ],
+        "y_proba": null,
+        "query_date": "2018-01-01",
+        "runtime": "000:00:06",
+        "model_version": 0.1,
+        "timestamp": "2025-07-11 21:50:31.051125"
+    },
+    {
+        "country": "spain",
+        "y_pred": [
+            3567.4000000000005
+        ],
+        "y_proba": null,
+        "query_date": "2018-01-02",
+        "runtime": "000:00:06",
+        "model_version": 0.1,
+        "timestamp": "2025-07-11 21:50:37.480452"
+    }
+]

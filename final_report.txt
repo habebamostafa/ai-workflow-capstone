@@ -1,0 +1,61 @@
+==============================
+IBM AI Workflow Capstone Report
+==============================
+
+Project Summary:
+--------------------
+This project aims to forecast monthly revenue for a video-streaming company (AAVAIL) using historical customer transaction data. The goal is to help executives make informed decisions about subscription tiers and service offerings.
+
+Data Preparation:
+---------------------
+The original data was provided in monthly JSON files. A custom Python function (`fetch_data`) was written to:
+- Load and clean the data.
+- Normalize and aggregate it into daily revenue using `convert_to_ts()`.
+- Save cleaned time-series CSV files for the top 10 countries.
+
+Feature Engineering:
+-------------------------
+Engineered features based on:
+- Revenue from the past 7, 14, 28, and 70 days.
+- Revenue from the same period in the previous year.
+- Average number of invoices and views in the past 30 days.
+The target variable was the revenue over the next 30 days.
+
+Modeling:
+--------------
+Model Used: `RandomForestRegressor`  
+Tuned using `GridSearchCV` with `squared_error` and `absolute_error` criteria.  
+Trained individual models per country.  
+
+Model Performance (on Spain):
+-------------------------------
+- RMSE: ~3567.65
+- The predictions closely track real revenue.
+- Evaluation was visualized with matplotlib comparing actual vs predicted values.
+
+API Deployment:
+--------------------
+A Flask API (`app.py`) was created with the following endpoints:
+- `/predict`: Accepts `country`, `year`, `month`, `day` and returns 30-day forecast.
+- `/train`: Triggers model re-training.
+- `/`: Health check root.
+
+Simulated Requests:
+------------------------
+Used `simulate_requests.py` to mimic daily prediction requests for Spain in Jan 2018.  
+The results were logged into `predicted_values.json`.
+
+Post-Deployment Analysis:
+------------------------------
+Created `analyze_predictions.py` to:
+- Compare predicted values against actual daily revenue.
+- Calculate RMSE and visualize the differences.
+This analysis confirms the model tracks seasonal trends reasonably well.
+
+ Key Learnings:
+-------------------
+- Building robust AI pipelines includes continuous evaluation.
+- Time-series revenue forecasting benefits from well-engineered temporal features.
+- Logging and post-deployment monitoring are essential for reliability.
+
+Project Completed
